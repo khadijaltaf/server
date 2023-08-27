@@ -1,8 +1,8 @@
 import express from "express";
 import {config} from 'dotenv';
 import bodyParser from "body-parser";
-import adminRouter from "./routes/adminroutes.js";
-import mainRouter from "./routes/mainroutes.js";
+import adminRouter from "./routes/admin.routes.js";
+import mainRouter from "./routes/main.routes.js";
 import { connectDB } from "./config/db.js";
 
 const app = express();
